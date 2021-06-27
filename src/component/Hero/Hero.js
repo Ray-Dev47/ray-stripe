@@ -3,7 +3,7 @@ import phoneImg from '../../Images/phone.svg';
 import { FaChevronRight } from 'react-icons/fa';
 import { useGlobalContext } from '../../context';
 import '../Hero/Hero.css';
-import { close } from 'fs';
+// import { close } from 'fs';
 
 const Hero = () => {
     const {closeSubmenu} = useGlobalContext();
@@ -31,7 +31,7 @@ const Hero = () => {
                      </span>
                 </article>
                 <article className="hero-images">
-                    <img src={phoneImg} alt="phone image" className="phone-img" />
+                    <img src={phoneImg} alt="phone" className="phone-img" />
                 </article>
             </div>
 
